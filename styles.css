@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(220, 225, 223);
+}
+.title{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.svg-container{
+    height: 95.5%;
+    position: relative;
+}
+.tooltip{
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(159, 198, 240);
+    top: 30%;
+    left: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    opacity: 0;
+}
